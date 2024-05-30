@@ -1,0 +1,5 @@
+x = "welcome"
+
+
+
+print(x)
