@@ -122,6 +122,27 @@ my_car.read_mileage()
 
 
 
+        #TRY IT YOURSELF
+class Restaurant:
+    def __init__(self, restaurant_name, cuisane_type):
+        self.restaurant_name = restaurant_name
+        self.cuisane_type = cuisane_type
+        self.surved_food = 0
+
+    def describe_restaurant (self):
+        print (f"\nThe name of the restaurant is {self.restaurant_name} and the type of cuisane is {self.cuisane_type}")
+    def open_restaurant (self):
+        print(f"{self.restaurant_name} is open")
+    
+    def set_surved_food (self):
+        print(f"The number of surved food is {self.surved_food}")
+
+
+restaurant = Restaurant("Hunter Paradise", "FastFood")
+restaurant.describe_restaurant()
+restaurant.open_restaurant()
+# restaurant.surved_food = 90
+restaurant.set_surved_food()
 
 
 
